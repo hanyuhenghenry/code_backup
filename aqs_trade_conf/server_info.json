@@ -1,0 +1,31 @@
+{
+    "SJ": {
+        "account": [
+            "GXWX1",
+	    "WZSQY1",
+	    "ZXXY1",
+	    "GJXY3"
+        ], 
+        "ratio": 1, 
+        "value": 20
+    }, 
+    "ZS": {
+        "account": [
+            "RDQY1", 
+            "ZSWX2", 
+            "ZSXY1",
+            "HZXY3"
+        ], 
+        "ratio": 3, 
+        "value": 450
+    },
+    "msb": {
+        "account": [
+            "YHTR1", 
+            "WZSTY1",
+            "HTWX1"
+        ],
+        "ratio": 3,
+        "value": 500
+    } 
+}

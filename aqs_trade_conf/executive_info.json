@@ -1,0 +1,254 @@
+{
+    "frontend_address": "127.0.0.1:4501", 
+    "backend_address": "127.0.0.1:5501", 
+    "close_method": {
+        "today_prior": [], 
+        "open_opposite": [], 
+        "yesterday_prior": []
+    }, 
+    "order_manager": {
+        "tick_multiplier": {
+            "zs":{"default":[3,2]},
+            "sj":{"default":5},
+            "msb":{"default":5}
+        }, 
+        "market_num": 1, 
+        "tick_size": {
+            "default": 0
+        }, 
+        "market_time": 0.5,
+        "tick_num":{
+            "default":5
+        }
+    }, 
+    "parameter": {
+        "arb": {
+            "i2109,i2201": {
+                "mu": [
+                    1, 
+                    1.2
+                ], 
+                "vu": [
+                    1, 
+                    1
+                ], 
+                "pu": [
+                    1, 
+                    1
+                ]
+            }
+        }
+    }, 
+    "flatten": {
+        "zs":{
+            "day": {
+                "default": {
+                    "priority": 2, 
+                    "list_symbol": [], 
+                    "time": [
+                        "15:05:00", 
+                        "15:05:30"
+                    ]
+                }, 
+                "group1": {
+                    "priority": 0, 
+                    "list_symbol": [], 
+                    "time": [
+                        "15:02:00", 
+                        "15:02:30"
+                    ]
+                }, 
+                "group2": {
+                    "priority": 1, 
+                    "list_symbol": [], 
+                    "time": [
+                        "15:03:00", 
+                        "15:03:30"
+                    ]
+                }
+            }, 
+            "night": {
+                "default": {
+                    "priority": 0, 
+                    "list_symbol": [], 
+                    "time": [
+                        "02:32:30", 
+                        "02:33:00"
+                    ]
+                }, 
+                "group1": {
+                    "priority": 1, 
+                    "list_symbol": [
+                        "cu", 
+                        "al", 
+                        "zn", 
+                        "pb", 
+                        "ni", 
+                        "sn", 
+                        "ss", 
+                        "bc"
+                    ], 
+                    "time": [
+                        "02:34:00", 
+                        "02:34:30"
+                    ]
+                }, 
+                "group2": {
+                    "priority": 2, 
+                    "list_symbol": [
+                        "sc", 
+                        "au", 
+                        "ag"
+                    ], 
+                    "time": [
+                        "02:35:00", 
+                        "02:35:30"
+                    ]
+                }
+            }
+        },
+        "sj":{
+            "day": {
+                "default": {
+                    "priority": 2, 
+                    "list_symbol": [], 
+                    "time": [
+                        "14:59:00", 
+                        "14:59:30"
+                    ]
+                }, 
+                "group1": {
+                    "priority": 0, 
+                    "list_symbol": [], 
+                    "time": [
+                        "10:45:00", 
+                        "10:45:30"
+                    ]
+                }, 
+                "group2": {
+                    "priority": 1, 
+                    "list_symbol": [], 
+                    "time": [
+                        "10:50:00", 
+                        "10:50:30"
+                    ]
+                }
+            }, 
+            "night": {
+                "default": {
+                    "priority": 0, 
+                    "list_symbol": [], 
+                    "time": [
+                        "22:58:30", 
+                        "22:59:00"
+                    ]
+                }, 
+                "group1": {
+                    "priority": 1, 
+                    "list_symbol": [
+                        "cu", 
+                        "al", 
+                        "zn", 
+                        "pb", 
+                        "ni", 
+                        "sn", 
+                        "ss", 
+                        "bc"
+                    ], 
+                    "time": [
+                        "00:59:00", 
+                        "00:59:30"
+                    ]
+                }, 
+                "group2": {
+                    "priority": 2, 
+                    "list_symbol": [
+                        "sc", 
+                        "au", 
+                        "ag"
+                    ], 
+                    "time": [
+                        "02:29:00", 
+                        "02:29:30"
+                    ]
+                }
+            }
+        },
+        "msb":{
+            "day": {
+                "default": {
+                    "priority": 2, 
+                    "list_symbol": [], 
+                    "time": [
+                        "14:59:00", 
+                        "14:59:30"
+                    ]
+                }, 
+                "group1": {
+                    "priority": 0, 
+                    "list_symbol": [], 
+                    "time": [
+                        "10:45:00", 
+                        "10:45:30"
+                    ]
+                }, 
+                "group2": {
+                    "priority": 1, 
+                    "list_symbol": [], 
+                    "time": [
+                        "10:50:00", 
+                        "10:50:30"
+                    ]
+                }
+            }, 
+            "night": {
+                "default": {
+                    "priority": 0, 
+                    "list_symbol": [], 
+                    "time": [
+                        "22:58:30", 
+                        "22:59:00"
+                    ]
+                }, 
+                "group1": {
+                    "priority": 1, 
+                    "list_symbol": [
+                        "cu", 
+                        "al", 
+                        "zn", 
+                        "pb", 
+                        "ni", 
+                        "sn", 
+                        "ss", 
+                        "bc"
+                    ], 
+                    "time": [
+                        "00:59:00", 
+                        "00:59:30"
+                    ]
+                }, 
+                "group2": {
+                    "priority": 2, 
+                    "list_symbol": [
+                        "sc", 
+                        "au", 
+                        "ag"
+                    ], 
+                    "time": [
+                        "02:29:00", 
+                        "02:29:30"
+                    ]
+                }
+            }
+        }
+    },
+    "product_margin": {
+        "SX": 2700000, 
+        "WX1": 15000000, 
+        "WX2": 0, 
+        "QY1": 22500000, 
+        "TR8": 0, 
+        "sim": 12340
+    }
+    
+}
